@@ -1,0 +1,115 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 10px;
+  font-family: "Manjari", sans-serif;
+  font-weight: 100;
+  font-size: 18px;
+  color: #3a1e0a;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.image {
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bar {
+  background-color: #3a1e0a;
+  height: 2px;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: end;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+aside {
+  width: 250px;
+}
+
+article {
+  border: solid #fac8a4;
+  max-width: 570px;
+}
+
+aside, article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block, article {
+  padding: 10px;
+}
+
+.block {
+  background-color: #fac8a4;
+}
+
+.entry {
+  padding: 5px 0;
+}
+
+p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 5px 0 0 0;
+  margin: 0;
+  font-size: 18px;
+}
+
+aside h3 {
+  background-color: white;
+}
+
+article h3 {
+  background-color: #fac8a4;
+}
+
+h4 {
+  margin: 0;
+  padding: 15px 0 10px 0;
+}
+
+.date {
+  color: #f1a875;
+}
+
+.position {
+  color: #f1a875;
+  font-weight: 400;
+}
+
+.area {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-style: italic;
+  color: darkgray;
+}
+
+/*# sourceMappingURL=style.css.map */
